@@ -3,12 +3,7 @@ package interviewquestionsString;
 public class Reversestring {
 
 	public static void main(String[] args) {
-		/*
-		 * // here we are going to do string reverse in multiple methods..
-		 * 
-		 * 
-		 * 1.
-		 */
+		// here we are going to do string reverse in multiple methods..
 
 		String s = " Mathangi";
 
@@ -22,17 +17,16 @@ public class Reversestring {
 		StringBuilder sb = new StringBuilder(s);
 		StringBuilder ss = sb.reverse();
 		System.out.println(ss);
-		
-		
+
 		// third method using the reverse.
 
-		String chareversed="";
-	 for(int i=s.length()-1; i>=0; i--) {
-		 
-		 chareversed+=	 s.charAt(i);
-	 }
-	 
-	 System.out.println(chareversed);
+		String chareversed = "";
+		for (int i = s.length() - 1; i >= 0; i--) {
+
+			chareversed += s.charAt(i);
+		}
+
+		System.out.println(chareversed);
 
 	}
 
