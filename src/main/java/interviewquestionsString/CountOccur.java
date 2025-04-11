@@ -38,8 +38,6 @@ public class CountOccur {
 
 		System.out.println(hs);
 
-		// 3rd emthod for string questions
-
 	}
 
 }
